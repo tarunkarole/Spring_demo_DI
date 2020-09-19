@@ -6,6 +6,7 @@ public class BaseBallImpl implements BaseBall {
 
     private String team;
     private String email;
+    private String name;
 
     private CricketCoach cricket;
 
@@ -38,5 +39,13 @@ public class BaseBallImpl implements BaseBall {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

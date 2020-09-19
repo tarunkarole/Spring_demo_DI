@@ -17,6 +17,7 @@
         <property name="cricket" ref="myCricket"/>
         <property name="team" value="${foo.team}"/>
         <property name="email" value="${foo.email}"/>
+        <property name="name" value="${foo.name}"/>
     </bean>
 
 

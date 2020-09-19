@@ -14,6 +14,7 @@ public class MyApp {
         System.out.println(theCoach.getCricket());
         System.out.println(theCoach.getEmail());
         System.out.println(theCoach.getTeam());
+        System.out.println(theCoach.getName());
 
     }
 
